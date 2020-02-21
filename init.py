@@ -7,26 +7,21 @@
 """
 
 
-
-import os 
+import os
 
 cwd = os.getcwd()  # current working directory
 
-os.listdir(cwd)  # list contents in dir - return an array. Example: os.listdir('/') would list everything in the root dir
+# list contents in dir - return an array. Example: os.listdir('/') would list everything in the root dir
+os.listdir(cwd)
 
-
-def find_HTML():
-    pass
 
 def confirm_file_is_HTML():
     pass
 
-def find_links():
+
+def find_subreddits():
     pass
 
-def is_link_a_subreddit():
-    pass
 
 if __name__ == "__main__":
     pass
-
